@@ -1,5 +1,8 @@
 # NodeJS Packages
 node_modules/
 
+# ENV config
+.env
+
 # Logs
 std*.txt
