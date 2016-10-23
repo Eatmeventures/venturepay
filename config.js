@@ -27,6 +27,8 @@
 function Config() {
 }
 
+require('dotenv').config();
+
 //Masterpass Merchant Url
 Config.merchantUrl = process.env.MERCHANTURL || "http://demo.labs.mastercard.com/camera/";
 Config.port = process.env.PORT || 40410;
