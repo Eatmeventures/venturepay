@@ -24,3 +24,17 @@
  * SUCH DAMAGE.
  *
  */
+
+/**
+ * Here we will store the user data.
+ * As this is a sample implementation demo we can rely on memory to store this data, 
+ * but this shouldn't be done in a production demo. 
+ * Please replace this with the persistent DataStore of your preference.
+ */
+function SessionStore() {
+
+}
+
+SessionStore.userData = new Map();
+
+module.exports = SessionStore;

@@ -24,3 +24,12 @@
  * SUCH DAMAGE.
  *
  */
+function Config() {
+}
+
+//Masterpass Merchant Url
+Config.merchantUrl = process.env.MERCHANTURL || "http://demo.labs.mastercard.com/camera/";
+Config.port = process.env.PORT || 40410;
+Config.token = process.env.PAGE_ACCESS_TOKEN || "<PAGE_ACCESS_TOKEN>"; 
+
+module.exports = Config;
