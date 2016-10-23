@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/Eatmeventures/venuepay.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js > stdout.txt 2> stderr.txt"
@@ -11,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
     "express": "^4.13.4",
     "node-cache": "^4.1.0",
     "request": "^2.71.0"
